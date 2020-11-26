@@ -1,0 +1,55 @@
+GEM
+  specs:
+    addressable (2.7.0)
+      public_suffix (>= 2.0.2, < 5.0)
+    faraday (1.1.0)
+      multipart-post (>= 1.2, < 3)
+      ruby2_keywords
+    firebase (0.2.8)
+      googleauth
+      httpclient (>= 2.5.3)
+      json
+    googleauth (0.14.0)
+      faraday (>= 0.17.3, < 2.0)
+      jwt (>= 1.4, < 3.0)
+      memoist (~> 0.16)
+      multi_json (~> 1.11)
+      os (>= 0.9, < 2.0)
+      signet (~> 0.14)
+    httparty (0.18.1)
+      mime-types (~> 3.0)
+      multi_xml (>= 0.5.2)
+    httpclient (2.8.3)
+    json (2.3.0)
+    jwt (2.2.2)
+    memoist (0.16.2)
+    mime-types (3.3.1)
+      mime-types-data (~> 3.2015)
+    mime-types-data (3.2020.1104)
+    mini_portile2 (2.4.0)
+    multi_json (1.15.0)
+    multi_xml (0.6.0)
+    multipart-post (2.1.1)
+    nokogiri (1.10.10)
+      mini_portile2 (~> 2.4.0)
+    os (1.1.1)
+    public_suffix (4.0.6)
+    ruby2_keywords (0.0.2)
+    signet (0.14.0)
+      addressable (~> 2.3)
+      faraday (>= 0.17.3, < 2.0)
+      jwt (>= 1.5, < 3.0)
+      multi_json (~> 1.10)
+    sqlite3 (1.4.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  firebase
+  httparty
+  nokogiri
+  sqlite3
+
+BUNDLED WITH
+   2.1.4
