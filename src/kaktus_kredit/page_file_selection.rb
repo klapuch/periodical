@@ -7,7 +7,7 @@ module KaktusKredit
     end
 
     def read
-      File.exist?(filename) ? File.read(filename) : nil
+      File.exist?(filename) ? File.read(filename) : ''
     end
 
     def write(content)
