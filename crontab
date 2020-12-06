@@ -1,0 +1,1 @@
+0 * * * * cd /home/dom/Projects/periodical && /usr/bin/ruby src/job.rb
